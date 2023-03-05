@@ -27,4 +27,4 @@ jobs:
           echo "${{ secrets.WIKI_DEPLOY_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
       - name: Push commits to main wiki remote
-        run: git push --force dot-wiki HEAD:main
+        run: git push --force dot-wiki HEAD:master
