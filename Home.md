@@ -1,3 +1,4 @@
-Welcome to the sovryn-dapp wiki!
+> _This wiki is automatically published from [DistributedCollective/sovryn-dapp-wiki](https://github.com/DistributedCollective/sovryn-dapp-wiki). To edit this page,_
+> _go to [DistributedCollective/sovryn-dapp-wiki](https://github.com/DistributedCollective/sovryn-dapp-wiki), make your changes and submit a Pull Request._
 
-This is the first automatic deployment of this content.
+Welcome to the sovryn-dapp wiki!
