@@ -249,12 +249,12 @@ Within `packages/ui`:
 
 ## Component Structure
 
-* ComponentName/
-  * ComponentName.tsx - Contains and exports main component, named “ComponentName”.
-  * ComponentName.module.css [optional] - Contains custom CSS styles for the main component. Should only be used when tailwind is not enough.
-  * ComponentName.stories.tsx - Contains storybook examples. Only needed for atoms, molecules and organisms.
-  * ComponentName.test.tsx - Contains Jest tests. Each component should have at least some basic test coverage so we're sure it's working the way is supposed to even after refactorings.
-  * ComponentName.utils.ts [optional] - Contains component specific helper functions. May be used by sub-components.
-  * ComponentName.types.ts [optional] - Contains component enums/types/interfaces (the only exception that doesn't belong there is a component's interface/type). May be used by sub-components.
-  * hooks/ [optional] - Contains component specific hooks. May be used by sub-components.
-  * components/ [optional] - Contains sub-component, that are only used by the parent component. Sub-components should follow the same Component Structure.
+* `ComponentName/`
+  * `ComponentName.tsx` - Contains and exports main component, named `ComponentName`.
+  * `ComponentName.module.css` - optional - Contains custom CSS styles for the main component. Should only be used when tailwind is not enough.
+  * `ComponentName.stories.tsx` - Contains storybook examples. Only needed for atoms, molecules and organisms.
+  * `ComponentName.test.tsx` - Contains Jest tests. Each component should have at least some basic test coverage so we're sure it's working the way is supposed to even after refactorings.
+  * `ComponentName.utils.ts` or `utils.ts`- optional - Contains component specific helper functions. May be used by sub-components.
+  * `ComponentName.types.ts` or `types.ts` - optional - Contains component enums/types/interfaces (the only exception that doesn't belong there is a component's interface/type). May be used by sub-components. May also be placed into `types/` folder if multiple types files are required.
+  * `hooks/` - optional - Contains component specific hooks. May be used by sub-components.
+  * `components/` - optional - Contains sub-component, that are only used by the parent component. Sub-components should follow the same Component Structure.
