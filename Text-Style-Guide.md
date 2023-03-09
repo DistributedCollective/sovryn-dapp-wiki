@@ -23,7 +23,7 @@
   - The name of bitcoin’s native asset is also bitcoin. The token symbol of bitcoin is BTC. In cases where the similarities of these names may cause ambiguity, use “bitcoin” to refer to the network and “BTC” to refer to the asset.
   - In the user interface, BTC is called BTC regardless of what chain that BTC is used on. For example, RBTC is called BTC. Where clarification is needed, for example where BTC is discussed in the context of multiple different blockchains, the blockchain that BTC is used on should be referenced e.g. “Rootstock BTC” or “bitcoin mainchain BTC”.
 - The word "blockchain" is not capitalized unless it is a proper noun part of something's name e.g. "Blockchain Inc."
-  - The word “blockchain” is a one word (not “block chain”) concrete noun and should always be preceded by either a possessive noun, “a”, or “the” e.g. “bitcoin’s blockchain”, “a blockchain”, or “the blockchain”
+  - The word “blockchain” is a one word (not “block chain”) [concrete noun](https://medium.com/@ryanshea/blockchain-terminology-a-grammar-usage-guide-ff54c95167bb) and should always be preceded by either a possessive noun, “a”, or “the” e.g. “bitcoin’s blockchain”, “a blockchain”, or “the blockchain”
 - Web3 is always capitalized and spelled as one word
   - Using “web3” or “Web 3.0” would be incorrect
 - The abbreviation of “decentralized application” is “dapp”. Not “DApp”, “dApp”, or “Ðapp”
@@ -44,7 +44,7 @@
 - Use American English spelling of a word when the spelling varies by locale
 - Lists should always be in alphabetical, numerical, or chronological order, unless there’s a good reason for them not to be
 - The format to use for dates should be either YYYY-MM-DD if numeric (e.g 2020-12-31) or Month D(st)(th)(D, YYYY) if spelled out (e.g. January 1st or December 31, 2020)
-  - Related: all times should be communicated in HH:MM:SS UTC and specified as such to avoid the confusion of “Daylight Savings Time”, which is inconsistently implemented across the world (even within the same country) and is generally a scourge on humanity.
+  - Related: all times should be communicated in HH:MM:SS UTC and specified as such to avoid the confusion of “Daylight Savings Time”, which is inconsistently implemented across the world (even [within the same country](https://en.wikipedia.org/wiki/Daylight_saving_time_in_the_United_States#Local_DST_observance)) and is [generally a scourge on humanity](https://www.inc.com/jessica-stillman/experts-to-public-daylight-savings-time-is-a-434m-problem-we-could-easily-fix.html). An exception would be if there is an event being held locally in a specific time zone and there's no need to specify a time zone because all attendees will be in that time zone. In this case, the local time zone does not need to be specified unless the event is also being livestreamed so that people worldwide can watch online; here, both the local time zone and UTC time should be specified e.g. “17:00 EDT / 21:00 UTC”.
 - Bullet points:
   - Use a period (full stop) if a bullet point contains multiple sentences
   - Use no punctuation after bullet points that are fragment sentences and do not complete the stem
