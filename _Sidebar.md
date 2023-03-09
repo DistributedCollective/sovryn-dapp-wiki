@@ -1,6 +1,6 @@
 * **[[Home]]**
 * **[[Code Style]]**
 * **[[Git Usage]]**
-* **[[Design]]
+* **[[Design]]**
 * **[[Text Style Guide]]**
 
